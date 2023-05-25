@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="com2009_team6" type= "obstacle_avoid_server.py" name="obstacle_avoid_server" output="screen"/>
+  <node pkg="com2009_team6" type= "obstacle_avoid_client.py" name="obstacle_avoid_client" output="screen"/>
+  <!-- <node pkg="com2009_team6" type= "maze_nav.py" name="maze_nav" output="screen"> -->
+  <!-- </node> -->
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  <arg name="target_colour" default=""/>
+  <node pkg="com2009_team6" type= "task5.py" name="task5" output="screen"
+    args="-colour $(arg target_colour)"/>
+  <node pkg="com2009_team6" type= "maze_nav_new.py" name="maze_nav_new" output="screen"/> 
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch"/>
+  <node pkg="com2009_team6" type= "map_saver.py" name="map_saver" output="screen"/>
+</launch> 

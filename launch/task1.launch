@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="com2009_team6" type= "eight_shape.py" name="eight_shape" output="screen" />
+</launch>

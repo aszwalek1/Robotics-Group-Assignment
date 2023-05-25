@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="com2009_team6" type= "maze_nav.py" name="maze_navigation" output="screen" />
+</launch>

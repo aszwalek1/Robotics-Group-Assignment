@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="com2009_team6" type= "beaconing.py" name="task4" output="screen" />
+</launch>
